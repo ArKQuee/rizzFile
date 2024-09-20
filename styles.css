@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    align-content: baseline;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    position: absolute;
+    transition: all 0.3s ease;
+    width: 170px;
+    height: 40px;
+    border-radius: 30px; ;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; 
+}
